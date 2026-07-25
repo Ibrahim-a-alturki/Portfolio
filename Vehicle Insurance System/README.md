@@ -21,15 +21,10 @@ The project followed a full systems-development path:
 | Phase | Focus | What I Did |
 |---|---|---|
 | 1. Requirements Analysis | Business process mapping | Documented the business process (Business Process Documentation) and designed a Process Flow Diagram mapping the customer's end-to-end vehicle insurance journey |
-
-| 2. Database Design | Data modeling | Defined entities and attributes (Entity Schema), identified Primary and Foreign Keys, and designed an Entity Relationship Diagram (ERD) reflecting real insurance business rules|
-
+| 2. Database Design | Data modeling | Defined entities and attributes (Entity Schema), identified Primary and Foreign Keys, and designed an Entity Relationship Diagram (ERD) reflecting real insurance business rules |
 | 3. Database Implementation | SQL / Oracle | Translated the ERD into live database tables using `CREATE TABLE`, `ALTER`, and `DROP` commands via Toad for Oracle, with precise data typing (e.g. `VARCHAR`, `NUMBER`) |
-
 | 4. Automation & Auditing | PL/SQL Triggers | Built a trigger linking the **Payment** and **Policy** tables so a policy automatically becomes "Active" once payment is completed; added a full audit trail (Creation By, Last Creation By, Modified By, Last Modified By) |
-
 | 5. Reporting | Advanced SQL | Wrote multi-table SQL queries (`SELECT` with aliases, `JOIN` on PK/FK) to generate reports such as the highest-value policy with client details, and a client–vehicle–product report |
-
 | 6. Low-Code App Development | Oracle APEX | Researched Oracle APEX, then built a set of interactive pages to manage owners, policies, coverage, vehicles, and claims, plus dashboards for claim monitoring |
 
 ---
@@ -82,6 +77,8 @@ The project followed a full systems-development path:
 
 ## 📸 Screenshots
 
+*(Add your outcome screenshots to a `/screenshots` folder in the repo and reference them below, for example:)*
+
 | Page | Preview |
 |---|---|
 | Owners Information Entry | `screenshots/owners-entry.png` |
@@ -112,6 +109,7 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 The training phase of this project is complete, and I plan to continue extending the portal with additional features going forward.
 
 ---
+
 
 ## 👤 About Me
 
