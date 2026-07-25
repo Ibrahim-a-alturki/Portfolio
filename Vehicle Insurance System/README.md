@@ -74,22 +74,47 @@ The project followed a full systems-development path:
 
 ---
 
-## 📸 Screenshots
+## 📁 Design & Planning Documents
 
-*(Add your outcome screenshots to a `/screenshots` folder in the repo and reference them below, for example:)*
+The full analysis and design artifacts produced before implementation are available in [`database/`](database/):
+
+- 📄 [Business Process Documentation](database/Business%20Process%20Documentation.pdf) — textual breakdown of the customer's vehicle insurance journey
+- 📄 [Process Flow Diagram](database/Process%20Flow%20Diagram.pdf) — visual flow of the customer journey
+- 📄 [Entity Relationship Diagram](database/Entity%20Relationship%20Diagram.pdf) — full ERD with entities, attributes, and PK/FK relationships
+- 📄 [Database Schema](database/Database%20Schema.pdf) — final entity schema
+
+---
+
+## 💾 Database & SQL Scripts
+
+The full SQL used to build and automate the database is available in [`sql/`](sql/):
+
+| File | Contents |
+|---|---|
+| [`create_tables.sql`](sql/create_tables.sql) | Table definitions (`CREATE TABLE`), data types, primary/foreign keys |
+| [`triggers.sql`](sql/triggers.sql) | Automation logic — e.g. auto-activating a policy on payment, audit-trail columns |
+| [`procedures.sql`](sql/procedures.sql) | PL/SQL validation logic (e.g. enforcing the 10-digit Owner ID rule) |
+
+---
+
+## 🖥️ Oracle APEX Application
+
+The interactive front-end was built entirely in **Oracle APEX**, connected to the schema created in `sql/`. Screenshots of the working pages are available in [`oracle-apex/screenshots/`](oracle-apex/screenshots/):
 
 | Page | Preview |
 |---|---|
-| Owners Information Entry | `screenshots/owners-entry.png` |
-| Policies & Coverages | `screenshots/policies-coverages.png` |
-| Policies & Vehicles | `screenshots/policies-vehicles.png` |
-| Claims Tracking | `screenshots/claims-page.png` |
-| Claims Dashboard | `screenshots/claims-dashboard.png` |
+| Owners Information Entry | `oracle-apex/screenshots/owners-entry.png` |
+| Policies & Coverages | `oracle-apex/screenshots/policies-coverages.png` |
+| Policies & Vehicles | `oracle-apex/screenshots/policies-vehicles.png` |
+| Claims Tracking | `oracle-apex/screenshots/claims-page.png` |
+| Claims Dashboard | `oracle-apex/screenshots/claims-dashboard.png` |
 
 ```markdown
-![Owners Information Entry](screenshots/owners-entry.png)
-![Claims Dashboard](screenshots/claims-dashboard.png)
+![Owners Information Entry](oracle-apex/screenshots/owners-entry.png)
+![Claims Dashboard](oracle-apex/screenshots/claims-dashboard.png)
 ```
+
+> Rename the files above to match whatever you actually name your screenshots — the important part is that the path matches `oracle-apex/screenshots/`.
 
 ---
 
@@ -102,7 +127,6 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 - **Cybersecurity & data governance:** Reviewed and summarized internal policies on data access, business continuity management, and cybersecurity incident/threat management.
 
 ---
-
 
 
 ## 👤 About Me
