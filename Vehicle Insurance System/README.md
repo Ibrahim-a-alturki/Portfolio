@@ -76,16 +76,16 @@ The project followed a full systems-development path:
 
 ## 📁 Design & Planning Documents
 
-The full analysis and design artifacts produced before implementation are available in [`database/`](database/):
+The full analysis and design artifacts produced before implementation are available in [`design-docs/`](design-docs/):
 
-- 📄 [Business Process Documentation](database/Business%20Process%20Documentation.pdf) — textual breakdown of the customer's vehicle insurance journey
-- 📄 [Process Flow Diagram](database/Process%20Flow%20Diagram.pdf) — visual flow of the customer journey
-- 📄 [Entity Relationship Diagram](database/Entity%20Relationship%20Diagram.pdf) — full ERD with entities, attributes, and PK/FK relationships
-- 📄 [Database Schema](database/Database%20Schema.pdf) — final entity schema
+- 📄 [Business Process Documentation](design-docs/Business%20Process%20Documentation.pdf) — textual breakdown of the customer's vehicle insurance journey
+- 📄 [Process Flow Diagram](design-docs/Process%20Flow%20Diagram.pdf) — visual flow of the customer journey
+- 📄 [Entity Relationship Diagram](design-docs/Entity%20Relationship%20Diagram.pdf) — full ERD with entities, attributes, and PK/FK relationships
+- 📄 [Database Schema](design-docs/Database%20Schema.pdf) — final entity schema
 
 ---
 
-## 💾 Database & SQL Scripts
+## 💾 SQL Scripts
 
 The full SQL used to build and automate the database is available in [`sql/`](sql/):
 
