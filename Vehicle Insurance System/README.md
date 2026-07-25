@@ -31,9 +31,8 @@ The project followed a full systems-development path:
 
 ## ✨ Key Features
 
-**Data Entry & Validation**
+**Data Entry**
 - Owner Information Entry page (Oracle APEX) that automatically populates the Owners Details table from the underlying schema
-- PL/SQL validation enforcing a strict 10-digit Owner ID format, with custom error messaging
 - Corrected a `Created By` trigger issue so it correctly logs the actual system user instead of a generic `APEX_USER` value
 
 **Policy & Coverage Management**
@@ -47,7 +46,7 @@ The project followed a full systems-development path:
 
 **Claims Tracking & Dashboards**
 - Dedicated Claims page showing claim status against each policy
-- Interactive dashboard with a gauge/indicator comparing Approved vs. Pending claims
+- Interactive dashboard with a pie chart comparing Approved vs. Pending claims
 - A prominent "Big Card" KPI widget highlighting the count of pending requests
 
 **Reporting**
@@ -59,9 +58,9 @@ The project followed a full systems-development path:
 
 | Category | Tools |
 |---|---|
-| Database & SQL Development | Oracle Database — schema, queries, triggers, and procedures all built and managed through **Toad for Oracle** |
+| Database & SQL Development | Oracle Database — schema, queries, and triggers all built and managed through **Toad for Oracle** |
 | Application Layer | Oracle APEX (low-code) — interactive pages connected to the same schema created in Toad |
-| Automation & Validation | PL/SQL (Triggers, Validation logic) |
+| Automation | PL/SQL Triggers |
 | Modeling | Entity Relationship Diagrams (ERD), Process Flow Diagrams |
 
 ---
@@ -92,21 +91,23 @@ The full SQL used to build and automate the database is available in [`sql/`](sq
 | File | Contents |
 |---|---|
 | [`create_tables.sql`](sql/create_tables.sql) | Core tables — `Owner`, `Policy`, `Vehicle`, `Coverage`, `Payments`, `Claims` — fully linked via primary/foreign key constraints |
-| [`triggers.sql`](sql/triggers.sql) | Automation logic — e.g. auto-activating a policy on payment, audit-trail columns |
-| [`procedures.sql`](sql/procedures.sql) | PL/SQL validation logic (e.g. enforcing the 10-digit Owner ID rule) |
+| [`triggers.sql`](sql/triggers.sql) | Automation logic — auto-activating a policy on payment, plus audit-trail triggers (Created By, Creation Date, Modified By, Last Modified Date) applied across all six tables |
 
 ---
 
 ## 🖥️ Oracle APEX Application
 
-The interactive front-end was built entirely in **Oracle APEX**, connected to the schema created in `sql/`. Screenshots of the working pages are available in [`oracle-apex/screenshots/`](oracle-apex/screenshots/):
+The interactive front-end was built entirely in **Oracle APEX**, connected to the schema created in `sql/`.
+
+Screenshots of the working pages are available in [`oracle-apex/screenshots/`](oracle-apex/screenshots/):
 
 | Page | Preview |
 |---|---|
-| Owners Information Entry | `oracle-apex/screenshots/owners-entry.png` |
+| Owner's Information Entry (create form) | `oracle-apex/screenshots/owners-entry.png` |
+| Owners Details (records grid) | `oracle-apex/screenshots/owners-details.png` |
 | Policies & Coverages | `oracle-apex/screenshots/policies-coverages.png` |
-| Policies & Vehicles | `oracle-apex/screenshots/policies-vehicles.png` |
-| Claims Tracking | `oracle-apex/screenshots/claims-page.png` |
+| Policies By Vehicle | `oracle-apex/screenshots/policies-vehicles.png` |
+| Claims By Policies | `oracle-apex/screenshots/claims-page.png` |
 | Claims Dashboard | `oracle-apex/screenshots/claims-dashboard.png` |
 
 ```markdown
