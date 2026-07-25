@@ -104,9 +104,6 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 
 ---
 
-## 🚀 Future Work
-
-The training phase of this project is complete, and I plan to continue extending the portal with additional features going forward.
 
 ---
 
