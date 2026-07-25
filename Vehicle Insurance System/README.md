@@ -12,7 +12,7 @@ The project followed a full systems-development path:
 
 **Requirements Analysis → Database Design (ERD) → SQL Implementation → Automation & Auditing → Reporting → Low-Code Application (Oracle APEX)**
 
-> **Note on data:** This repository documents and showcases the project — its design decisions, database structure, and interface — using the weekly reports and screenshots produced during training. The live company database and customer data belong to Malath Insurance and are not included here.
+> **Note on data:** This repository documents and showcases the project — including the actual SQL schema and automation scripts, database design artifacts, and interface screenshots produced during training. All data shown (e.g. in screenshots) is dummy/test data used for training purposes, not real customer records. The live Oracle database environment itself belongs to Malath Insurance and is not included here.
 
 ---
 
@@ -128,6 +128,7 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 - **Cybersecurity & data governance:** Reviewed and summarized internal policies on data access, business continuity management, and cybersecurity incident/threat management.
 
 ---
+
 
 
 ## 👤 About Me
