@@ -91,7 +91,7 @@ The full SQL used to build and automate the database is available in [`sql/`](sq
 
 | File | Contents |
 |---|---|
-| [`create_tables.sql`](sql/create_tables.sql) | Table definitions (`CREATE TABLE`), data types, primary/foreign keys |
+| [`create_tables.sql`](sql/create_tables.sql) | Core tables — `Owner`, `Policy`, `Vehicle`, `Coverage`, `Payments`, `Claims` — fully linked via primary/foreign key constraints |
 | [`triggers.sql`](sql/triggers.sql) | Automation logic — e.g. auto-activating a policy on payment, audit-trail columns |
 | [`procedures.sql`](sql/procedures.sql) | PL/SQL validation logic (e.g. enforcing the 10-digit Owner ID rule) |
 
