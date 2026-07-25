@@ -102,8 +102,6 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 - **Oracle APEX research:** Dedicated research into low-code application development principles ahead of hands-on building.
 - **Cybersecurity & data governance:** Reviewed and summarized internal policies on data access, business continuity management, and cybersecurity incident/threat management.
 
----
-
 
 ---
 
