@@ -92,6 +92,7 @@ The full SQL used to build and automate the database is available in [`sql/`](sq
 |---|---|
 | [`create_tables.sql`](sql/create_tables.sql) | Core tables — `Owner`, `Policy`, `Vehicle`, `Coverage`, `Payments`, `Claims` — fully linked via primary/foreign key constraints |
 | [`triggers.sql`](sql/triggers.sql) | Automation logic — auto-activating a policy on payment, plus audit-trail triggers (Created By, Creation Date, Modified By, Last Modified Date) applied across all six tables |
+| [`outcomes_screenshots.pdf`](sql/outcomes_screenshots.pdf) | Screenshots of the tables and triggers running live in the Toad for Oracle environment — visual proof the schema above is actually deployed |
 
 ---
 
@@ -99,23 +100,21 @@ The full SQL used to build and automate the database is available in [`sql/`](sq
 
 The interactive front-end was built entirely in **Oracle APEX**, connected to the schema created in `sql/`.
 
-Screenshots of the working pages are available in [`oracle-apex/screenshots/`](oracle-apex/screenshots/):
-
 | Page | Preview |
 |---|---|
 | Owner's Information Entry (create form) | `oracle-apex/screenshots/owners-entry.png` |
 | Owners Details (records grid) | `oracle-apex/screenshots/owners-details.png` |
-| Policies & Coverages | `oracle-apex/screenshots/policies-coverages.png` |
-| Policies By Vehicle | `oracle-apex/screenshots/policies-vehicles.png` |
-| Claims By Policies | `oracle-apex/screenshots/claims-page.png` |
-| Claims Dashboard | `oracle-apex/screenshots/claims-dashboard.png` |
+| Policies & Coverages | `oracle-apex/screenshots/policies-and-coverages.png` |
+| Policies By Vehicle | `oracle-apex/screenshots/policies-by-vehicle.png` |
+| Claims By Policies | `oracle-apex/screenshots/claims-by-policy.png` |
+| Claims Dashboard | `oracle-apex/screenshots/claims-piechart.png` |
 
-```markdown
-![Owners Information Entry](oracle-apex/screenshots/owners-entry.png)
-![Claims Dashboard](oracle-apex/screenshots/claims-dashboard.png)
-```
-
-> Rename the files above to match whatever you actually name your screenshots — the important part is that the path matches `oracle-apex/screenshots/`.
+![Owner's Information Entry](oracle-apex/screenshots/owners-entry.png)
+![Owners Details](oracle-apex/screenshots/owners-details.png)
+![Policies & Coverages](oracle-apex/screenshots/policies-and-coverages.png)
+![Policies By Vehicle](oracle-apex/screenshots/policies-by-vehicle.png)
+![Claims By Policies](oracle-apex/screenshots/claims-by-policy.png)
+![Claims Dashboard](oracle-apex/screenshots/claims-piechart.png)
 
 ---
 
@@ -129,13 +128,11 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 
 ---
 
-
-
 ## 👤 About Me
 
-**Ibrahim Abdulrahman Alturki** -
-Management Information Systems (MIS) Graduate -
+**Ibrahim Abdulrahman Alturki**
+Management Information Systems (MIS) Graduate
 Trained at Malath Insurance
 
-- LinkedIn: [https://www.linkedin.com/in/ibrahim-a-alturki]
-- Email: [a.alturki1@outlook.com]
+- LinkedIn: [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki)
+- Email: [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
