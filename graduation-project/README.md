@@ -63,7 +63,7 @@ This was a collaborative team project — all four members contributed across ev
 ## 📎 Full Documents
 
 - 📄 [Full Report](docs/Final-Report.pdf) — complete literature review, methodology, statistical tables, and conclusion
-- 🖼️ [Project Poster](docs/Poster.pdf)
+- 🖼️ [Project Poster](docs/Poster.pdf) — one-page visual summary of the study and key results
 
 ---
 
