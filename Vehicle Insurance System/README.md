@@ -92,7 +92,7 @@ The full SQL used to build and automate the database is available in [`sql/`](sq
 |---|---|
 | [`create_tables.sql`](sql/create_tables.sql) | Core tables — `Owner`, `Policy`, `Vehicle`, `Coverage`, `Payments`, `Claims` — fully linked via primary/foreign key constraints |
 | [`triggers.sql`](sql/triggers.sql) | Automation logic — auto-activating a policy on payment, plus audit-trail triggers (Created By, Creation Date, Modified By, Last Modified Date) applied across all six tables |
-| [`outcomes_screenshots.pdf`](sql/outcomes_screenshots.pdf) | Screenshots of the tables and triggers running live in the Toad for Oracle environment — visual proof the schema above is actually deployed |
+| [`outcomes_screenshots/`](sql/outcomes_screenshots/) | Screenshots of live data in each table (Owner, Policy, Vehicle, Coverage, Payments, Claims) running in the Toad for Oracle environment — visual proof the schema above is actually deployed |
 
 ---
 
