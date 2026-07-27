@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Ibrahim Alturki
 
-Management Information Systems (MIS) graduate with hands-on training experience in database design, SQL development, low-code application development, and data analysis & dashboard design (BI). This repository is a portfolio of projects from my field training and personal work.
+Management Information Systems graduate with hands-on training experience in database design, SQL development, low-code application development, and data analysis & dashboard design (BI). This repository is a portfolio of projects from my field training and personal work.
 
 ---
 
