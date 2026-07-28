@@ -109,12 +109,6 @@ The interactive front-end was built entirely in **Oracle APEX**, connected to th
 | Claims By Policies | [oracle-apex/screenshots/claims-by-policy.png](oracle-apex/screenshots/claims-by-policy.png) |
 | Claims Dashboard | [oracle-apex/screenshots/claims-piechart.png](oracle-apex/screenshots/claims-piechart.png) |
 
-![Owner's Information Entry](oracle-apex/screenshots/owners-entry.png)
-![Owners Details](oracle-apex/screenshots/owners-details.png)
-![Policies & Coverages](oracle-apex/screenshots/policies-and-coverages.png)
-![Policies By Vehicle](oracle-apex/screenshots/policies-by-vehicle.png)
-![Claims By Policies](oracle-apex/screenshots/claims-by-policy.png)
-![Claims Dashboard](oracle-apex/screenshots/claims-piechart.png)
 
 ---
 
