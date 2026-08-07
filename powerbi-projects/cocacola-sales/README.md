@@ -64,13 +64,13 @@ Detailed performance metrics per beverage brand:
 
 ## 📁 Repository Structure
 ```text
-Portfolio / powerbi-projects / cocacola-sales /
+powerbi-projects/cocacola-sales/
 │
 ├── raw-data/
-│   └── raw-cocacola.xlsx             # Raw dataset
+│   └── raw-cocacola.xlsx           # Raw Excel dataset
 │
 ├── screenshots/
-│   └── Screenshot 2026-08-07 174416.jpg  # Dashboard preview image
+│   └── dashboard-screenshot.png    # Dashboard preview image
 │
-├── cocacola-sales.pbix               # Interactive Power BI report file
-└── README.md                         # Project documentation
+├── README.md                       # Project documentation
+└── cocacola-sales.pbix             # Interactive Power BI report file
