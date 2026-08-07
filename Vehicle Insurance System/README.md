@@ -122,11 +122,15 @@ Beyond the Vehicle Insurance Portal itself, the training program also included:
 
 ---
 
+
 ## 👤 About Me
 
-**Ibrahim Abdulrahman Alturki**
-Management Information Systems (MIS) Graduate
-Trained at Malath Insurance
+### **Ibrahim Abdulrahman Alturki**
+*Management Information Systems (MIS) Graduate | Data & Business Analyst*
 
-- LinkedIn: [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki)
-- Email: [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
+I am a Management Information Systems (MIS) graduate passionate about bridging the gap between business logic and technical data environments. I specialize in database systems, SQL querying, and transforming raw operational data into actionable insights and decision-ready dashboards using **Power BI**.
+
+📫 **Connect with Me:**
+* 💼 **LinkedIn:** [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki/)
+* ✉️ **Email:** [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
+  
