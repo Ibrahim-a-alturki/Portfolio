@@ -133,4 +133,39 @@ I am a Management Information Systems (MIS) graduate passionate about bridging t
 📫 **Connect with Me:**
 * 💼 **LinkedIn:** [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki/)
 * ✉️ **Email:** [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
-  
+
+---
+
+  ## 📁 Repository Structure
+
+```text
+Vehicle Insurance System/
+│
+├── design-docs/
+│   ├── Business Process Documentation.pdf
+│   ├── Database Schema.pdf
+│   ├── Entity Relationship Diagram.pdf
+│   └── Process Flow Diagram.pdf
+│
+├── oracle-apex/
+│   ├── screenshots/
+│   │   ├── claims-by-policy.png
+│   │   ├── claims-piechart.png
+│   │   ├── owners-details.png
+│   │   ├── owners-entry.png
+│   │   ├── policies-and-coverages.png
+│   │   └── policies-by-vehicle.png
+│   └── README.md
+│
+├── sql/
+│   ├── outcomes_screenshots/
+│   │   ├── claims.png
+│   │   ├── coverages.png
+│   │   ├── owner.png
+│   │   ├── payments.png
+│   │   ├── policy.png
+│   │   └── vehicle.png
+│   ├── create_tables.sql
+│   └── triggers.sql
+│
+└── README.md
