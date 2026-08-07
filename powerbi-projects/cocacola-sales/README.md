@@ -8,7 +8,7 @@ The report delivers high-level insights into Key Performance Indicators (KPIs), 
 ---
 
 ## 📸 Dashboard Preview
-![CoCa Cola Retailers USA Dashboard](powerbi-projects/cocacola-sales/screenshots/dashboard-screenshot.png)
+![CoCa Cola Retailers USA Dashboard](cocacola-sales/screenshots/dashboard-screenshot.png)
 
 ---
 
