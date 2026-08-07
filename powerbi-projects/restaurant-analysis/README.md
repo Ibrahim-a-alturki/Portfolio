@@ -1,10 +1,11 @@
 # 📊 Restaurant Sales & Operations Dashboard
 
 ## 📌 Executive Brief & Data Source
-This Power BI repository presents an operational and sales performance evaluation based on an **authentic, real-world restaurant dataset sourced from Kaggle**.
+This Power BI repository presents an operational and sales performance evaluation built using a **real-world restaurant dataset sourced directly from Kaggle**.
 
-> 💡 **Branding & Data Disclaimer:** 
-> The brand identity **"Black Wolf Industries"** is a fictional placeholder created for dashboard design and visual hierarchy purposes. While the branding is conceptual, the underlying transactional data, metrics, and operational performance represent real restaurant activity.
+> 💡 **Data Source & Branding Disclaimer:** 
+> * **Data Source:** The raw data used in this project was retrieved from **Kaggle**.
+> * **Branding:** The brand identity **"Black Wolf Industries"** is a fictional name and logo added during the dashboard development process for visual hierarchy and UI design purposes. While the branding is conceptual, all underlying transactional numbers, metrics, and dates reflect the original Kaggle dataset.
 
 The report analyzes a two-month operational window (**November and December**) across five European city locations managed by dedicated regional managers, evaluating **$800,957.50** in total revenue across **254 recorded batch transactions**.
 
@@ -100,7 +101,7 @@ The report analyzes a two-month operational window (**November and December**) a
 powerbi-projects/restaurant-analysis/
 │
 ├── raw-data/
-│   └── raw-resturant.xlsx           # Authentic raw dataset (Sourced from Kaggle)
+│   └── raw-resturant.xlsx           # Dataset retrieved from Kaggle
 │
 ├── screenshots/
 │   ├── dashboard-screenshot.png     # Interactive Dashboard UI
