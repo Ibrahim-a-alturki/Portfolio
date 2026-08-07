@@ -1,9 +1,12 @@
-# 📊 Black Wolf Industries - Restaurant Sales & Operations Dashboard
+# 📊 Restaurant Sales & Operations Dashboard
 
-## 📌 Executive Brief & Scope
-This Power BI repository contains an operational and sales performance evaluation for **Black Wolf Industries**. The analysis covers a two-month operational window (**November and December**) across five European city branches managed by dedicated regional managers.
+## 📌 Executive Brief & Data Source
+This Power BI repository presents an operational and sales performance evaluation based on an **authentic, real-world restaurant dataset sourced from Kaggle**.
 
-The dataset evaluates **$800,957.50** in total revenue across **254 recorded batch orders/transactions**, analyzing sales metrics, product volume distributions, purchasing channels, and manager performance.
+> 💡 **Branding & Data Disclaimer:** 
+> The brand identity **"Black Wolf Industries"** is a fictional placeholder created for dashboard design and visual hierarchy purposes. While the branding is conceptual, the underlying transactional data, metrics, and operational performance represent real restaurant activity.
+
+The report analyzes a two-month operational window (**November and December**) across five European city locations managed by dedicated regional managers, evaluating **$800,957.50** in total revenue across **254 recorded batch transactions**.
 
 ---
 
@@ -84,11 +87,11 @@ The dataset evaluates **$800,957.50** in total revenue across **254 recorded bat
 
 ---
 
-## 🔍 Key Data Insights & Observations
+## 🔍 Key Data Insights & Operational Observations
 
-1. **Regional Anomaly (Madrid):** Madrid generated **$136,154.24** in November (making it the top-performing city that month), but recorded **$0.00** revenue in December.
-2. **Channel Shift:** Drive-thru orders dropped significantly from **51 in November** to **10 in December**, whereas Online orders increased from **20 to 87**.
-3. **Product Volume Hierarchy:** Beverages (**34,988 units**) and Fries (**32,023 units**) represent the primary volume drivers, exceeding main food courses (Burgers at **29,018 units** and Chicken Sandwiches at **11,133 units**).
+1. **Regional Anomaly (Madrid):** Madrid generated **$136,154.24** in November (making it the top-performing location that month), but recorded **$0.00** revenue in December.
+2. **Channel Shift:** Drive-thru transactions dropped significantly from **51 in November** to **10 in December**, whereas Online orders surged from **20 to 87**.
+3. **Product Volume Drivers:** Beverages (**34,988 units**) and Fries (**32,023 units**) represent the primary volume drivers, exceeding main food courses (Burgers at **29,018 units** and Chicken Sandwiches at **11,133 units**).
 
 ---
 
@@ -97,7 +100,7 @@ The dataset evaluates **$800,957.50** in total revenue across **254 recorded bat
 powerbi-projects/restaurant-analysis/
 │
 ├── raw-data/
-│   └── raw-resturant.xlsx           # Raw Excel dataset
+│   └── raw-resturant.xlsx           # Authentic raw dataset (Sourced from Kaggle)
 │
 ├── screenshots/
 │   ├── dashboard-screenshot.png     # Interactive Dashboard UI
