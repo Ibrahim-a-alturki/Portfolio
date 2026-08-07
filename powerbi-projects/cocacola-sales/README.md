@@ -1,9 +1,9 @@
-# 📊 CoCa Cola Retailers USA - Power BI Dashboard
+# 📊 Coca-Cola Retailers USA - Power BI Dashboard
 
 ## 📌 Project Overview
-This interactive dashboard, created using **Power BI Desktop**, provides a comprehensive analysis of **Coca-Cola** sales and operating profitability across the United States for the period ranging from **January 2, 2021, to December 25, 2021**.
+An interactive Power BI dashboard analyzing **Coca-Cola** sales and operating profitability across the United States for 2021 (Jan 2 – Dec 25). The report evaluates Key Performance Indicators (KPIs), monthly sales trends, geographic distribution, and brand performance.
 
-The report delivers high-level insights into Key Performance Indicators (KPIs), monthly sales trends, geographic distribution, and detailed brand performance breakdown.
+> 💡 **Data Source:** Retrieved from **Kaggle**.
 
 ---
 
@@ -61,6 +61,20 @@ Detailed performance metrics per beverage brand:
 * Interactive map powered by Microsoft Bing, displaying sales distribution density across US states via scaled red bubble markers.
 
 ---
+
+
+## 👤 About Me
+
+### **Ibrahim Abdulrahman Alturki**
+*Management Information Systems (MIS) Graduate | Data & Business Analyst*
+
+I am a Management Information Systems (MIS) graduate passionate about bridging the gap between business logic and technical data environments. I specialize in database systems, SQL querying, and transforming raw operational data into actionable insights and decision-ready dashboards using **Power BI**.
+
+📫 **Connect with Me:**
+* 💼 **LinkedIn:** [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki/)
+* ✉️ **Email:** [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
+
+--- 
 
 ## 📁 Repository Structure
 ```text
