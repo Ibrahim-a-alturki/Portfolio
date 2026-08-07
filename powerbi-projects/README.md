@@ -21,6 +21,18 @@ Welcome to my central Power BI repository. This folder serves as a portfolio sho
 
 ---
 
+## 👤 About Me
+
+### **Ibrahim Abdulrahman Alturki**
+*Management Information Systems (MIS) Graduate | Data & Business Analyst*
+
+I am a Management Information Systems (MIS) graduate passionate about bridging the gap between business logic and technical data environments. I specialize in database systems, SQL querying, and transforming raw operational data into actionable insights and decision-ready dashboards using **Power BI**.
+
+📫 **Connect with Me:**
+* 💼 **LinkedIn:** [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki/)
+* ✉️ **Email:** [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
+
+  ---
 ## 📁 Folder Structure
 
 ```text
