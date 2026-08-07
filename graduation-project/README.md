@@ -78,4 +78,15 @@ I am a Management Information Systems (MIS) graduate passionate about bridging t
 📫 **Connect with Me:**
 * 💼 **LinkedIn:** [linkedin.com/in/ibrahim-a-alturki](https://www.linkedin.com/in/ibrahim-a-alturki/)
 * ✉️ **Email:** [a.alturki1@outlook.com](mailto:a.alturki1@outlook.com)
+
+---
+
+## 📁 Repository Structure
+
+```text
+graduation-project/
+│
+├── README.md               # Project overview and documentation
+├── final-report.pdf        # Comprehensive final graduation project report
+└── project-poster.pdf      # Academic poster presentation summarizing the project
   
